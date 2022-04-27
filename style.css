@@ -5,10 +5,9 @@
 }
 
 body {
+    text-align: center;
     display: grid;
     grid-template-columns: 1;
-    grid-template-rows: 5;
-    text-align: center;
 }
 
 nav ul {
@@ -19,4 +18,30 @@ nav ul {
 
 nav ul li {
     padding: 10px;
+}
+
+#mainPage {
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 3;
+}
+
+/* img.profilePicture {
+    max-width: 150px;
+    max-height: 150px;
+} */
+
+.header {
+    display: flex;
+    margin: 25px 5px;
+}
+
+.header img {
+    border-radius: 50%;
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.header p {
+    margin-left: 20px;
 }
