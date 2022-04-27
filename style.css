@@ -1,4 +1,4 @@
-#aboutMePage,
+#mainPage,
 #projectsPage,
 #contactMePage {
     visibility: hidden;
@@ -8,6 +8,7 @@ body {
     text-align: center;
     display: grid;
     grid-template-columns: 1;
+    size: 100%;
 }
 
 nav ul {
@@ -26,11 +27,6 @@ nav ul li {
     grid-template-rows: 3;
 }
 
-/* img.profilePicture {
-    max-width: 150px;
-    max-height: 150px;
-} */
-
 .header {
     display: flex;
     margin: 25px 5px;
@@ -44,4 +40,18 @@ nav ul li {
 
 .header p {
     margin-left: 20px;
+}
+
+#aboutMePage {
+    grid-row: 2 / 3;
+}
+
+#aboutMePage h2 {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#aboutMePage div {
+    margin: 20px 0;
+    padding: 20px 0;
 }
