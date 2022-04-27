@@ -1,6 +1,6 @@
 #mainPage,
 #aboutMePage,
-#contactMePage {
+#projectsPage {
     visibility: hidden;
 }
 
@@ -8,7 +8,7 @@ body {
     text-align: center;
     display: grid;
     grid-template-columns: 0 / 1;
-    grid-template-rows: 4fr;
+    grid-template-rows: 3fr;
     size: 100%;
 }
 
@@ -63,12 +63,31 @@ nav ul li {
     grid-column: 1 / 2;
 }
 
+#projectsPageGrid {
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-rows: 3fr;
+}
+
 #projectsPage section {
     display: flex;
+    margin: 20px 0;
+    padding: 20px 0;
+    size: 100%;
 }
 
 #projectsPage img {
     border-radius: 50%;
     max-width: 150px;
     max-height: 150px;
+}
+
+#contactMePage {
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+}
+
+#contactMePage section {
+    margin: 20px 0;
+    padding: 20px 0;
 }
