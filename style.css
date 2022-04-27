@@ -1,0 +1,22 @@
+#aboutMePage,
+#projectsPage,
+#contactMePage {
+    visibility: hidden;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 5;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+}
+
+nav ul li {
+    padding: 10px;
+}
