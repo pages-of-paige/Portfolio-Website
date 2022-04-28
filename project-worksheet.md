@@ -60,9 +60,9 @@ Below are the functional components broken down into MVP versus post-MVP.
 | Projects - linked pictures | H | 4hr | 3hr |
 | Email list form | M | 2hr|  3hr | 
 | Grid/Flexbox | M | 4hr | 4hr|
-| Working with API | H | 6hrs|  hr | 
+| Working with jQuery | H | 6hrs|  3hr | 
 | Responsive design | H | 5hr | 6hr |
-| Total | H | 23 hrs| hrs |
+| Total | H | 23 hrs| 25hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
@@ -92,6 +92,3 @@ $('.aboutMe').click(function() {
 ## Issues and Resolutions
  Use this section to list of all major issues encountered and their resolution.
 
-#### SAMPLE.....
-**ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier                                
-**RESOLUTION**: Missing comma after first object in sources {} object

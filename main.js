@@ -6,21 +6,21 @@ $('.home').click(function() {
 
 })
 
-$('.aboutMe').click(function() {
+$('.aboutMe, #aboutMe img').click(function() {
     $('#contactMePage').css('visibility', 'hidden')
     $('#mainPage').css('visibility', 'hidden')
     $('#projectsPage').css('visibility', 'hidden')
     $('#aboutMePage').css('visibility', 'visible')
 })
 
-$('.projects').click(function() {
+$('.projects, #projects img').click(function() {
     $('#contactMePage').css('visibility', 'hidden')
     $('#mainPage').css('visibility', 'hidden')
     $('#aboutMePage').css('visibility', 'hidden')
     $('#projectsPage').css('visibility', 'visible')
 })
 
-$('.contactMe').click(function() {
+$('.contactMe, #contactMe img').click(function() {
     $('#projectsPage').css('visibility', 'hidden')
     $('#mainPage').css('visibility', 'hidden')
     $('#aboutMePage').css('visibility', 'hidden')
