@@ -28,9 +28,12 @@ nav ul {
 
 nav ul li {
     padding: 10px;
-    text-decoration: none;
     text-align: center;
     width: 25%;
+}
+a:link, a:visited {
+    text-decoration: none;
+    color:rgba(136, 255, 221);
 }
 
 #mainPage {
@@ -81,8 +84,8 @@ nav ul li {
     text-decoration: none;
 }
 
-header, #aboutMePage div {
-    padding: 20px;
+header, #aboutMePage section {
+    padding: 30px;
 }
 
 #projectsPage {
@@ -132,7 +135,7 @@ header, #aboutMePage div {
     h2 {
         font-size: 40px;
     }
-    p {
+    p, li {
         font-size: 20px;
     }
     h3 {
@@ -155,7 +158,7 @@ header, #aboutMePage div {
     h2 {
         font-size: 50px;
     }
-    p {
+    p, li {
         font-size: 30px;
     }
     h3 {
@@ -178,7 +181,7 @@ header, #aboutMePage div {
     h2 {
         font-size: 70px;
     }
-    p {
+    p, li {
         font-size: 50px;
     }
     h3 {
