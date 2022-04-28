@@ -12,7 +12,11 @@ body {
     size: 100%;
 }
 
-nav {
+nav,
+#projects,
+.background,
+.projectOne,
+.projectThree {
     background-color: rgba(225, 225, 0, .5) ;
 }
 
@@ -53,22 +57,18 @@ nav ul li {
     flex-direction: row-reverse;
 }
 
-/* .header {
-    display: flex;
-    margin: 25px 5px;
-    justify-content: center;
-    justify-content: space-evenly;
-} */
-
 #mainPage img {
     border-radius: 50%;
     max-width: 150px;
     max-height: 150px;
 }
 
-p {
-    margin-left: 20px;
-    margin-block-start: 50px;
+#aboutMe,
+#contactMe,
+.goals,
+.projectTwo,
+#emailList {
+    background-color: rgba(175, 251, 229, .75);
 }
 
 #aboutMePage {
@@ -81,9 +81,8 @@ p {
     text-decoration: none;
 }
 
-#aboutMePage div {
-    margin: 20px 0;
-    padding: 20px 0;
+header, #aboutMePage div {
+    padding: 20px;
 }
 
 #projectsPage {
@@ -102,7 +101,6 @@ p {
     justify-content: center;
     align-items: center;
     justify-content: space-evenly;
-    margin: 20px 0;
     padding: 20px 0;
     size: 100%;
 }
@@ -122,7 +120,7 @@ p {
     grid-column: 1 / 2;
 }
 
-#contactMePage section {
+#emailList {
     margin: 20px 0;
     padding: 20px 0;
 }
