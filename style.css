@@ -53,12 +53,12 @@ nav ul li {
     flex-direction: row-reverse;
 }
 
-.header {
+/* .header {
     display: flex;
     margin: 25px 5px;
     justify-content: center;
     justify-content: space-evenly;
-}
+} */
 
 #mainPage img {
     border-radius: 50%;
@@ -66,7 +66,7 @@ nav ul li {
     max-height: 150px;
 }
 
-.header p {
+p {
     margin-left: 20px;
     margin-block-start: 50px;
 }
@@ -100,6 +100,7 @@ nav ul li {
 #projectsPage section {
     display: flex;
     justify-content: center;
+    align-items: center;
     justify-content: space-evenly;
     margin: 20px 0;
     padding: 20px 0;
@@ -137,9 +138,10 @@ nav ul li {
         font-size: 20px;
     }
     h3 {
-        font-size: 20px;
+        font-size: 30px;
     }
-    .header img {
+    #mainPage img,
+    #projectsPage img {        
         max-width: 200px;
         max-height: 200px;
     }
@@ -159,9 +161,10 @@ nav ul li {
         font-size: 30px;
     }
     h3 {
-        font-size: 30px;
+        font-size: 40px;
     }
-    .header img {
+    #mainPage img,
+    #projectsPage img {
         max-width: 250px;
         max-height: 250px;
     }
@@ -181,9 +184,10 @@ nav ul li {
         font-size: 50px;
     }
     h3 {
-        font-size: 50px;
+        font-size: 60px;
     }
-    .header img {
+    #mainPage img,
+    #projectsPage img {
         max-width: 300px;
         max-height: 300px;
     }
