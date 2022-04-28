@@ -12,6 +12,10 @@ body {
     size: 100%;
 }
 
+nav {
+    background-color: rgba(225, 225, 0, .5) ;
+}
+
 nav ul {
     list-style: none;
     padding-left: 0;
@@ -20,6 +24,9 @@ nav ul {
 
 nav ul li {
     padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    width: 25%;
 }
 
 #mainPage {
@@ -97,4 +104,40 @@ nav ul li {
 #contactMePage section {
     margin: 20px 0;
     padding: 20px 0;
+}
+
+@media screen and (min-width:400px) {
+    h1 {
+        font-size: 60px;
+    }
+    h2 {
+        font-size: 40px;
+    }
+    p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    h1 {
+        font-size: 70px;
+    }
+    h2 {
+        font-size: 50px;
+    }
+    p {
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    h1 {
+        font-size: 90px;
+    }
+    h2 {
+        font-size: 70px;
+    }
+    p {
+        font-size: 50px;
+    }
 }
