@@ -32,7 +32,7 @@ nav ul li {
 #mainPage {
     display: grid;
     grid-template-columns: 2fr;
-    grid-template-rows: 100px 100px 200px 150px 200px;
+    grid-template-rows: 1fr 1fr 2fr 2fr 2fr;
     grid-column: 1 / 2;
     grid-row: 2 / 3;
 }
@@ -42,12 +42,25 @@ nav ul li {
     grid-row: 1 / 2;
 }
 
+#mainPage section {
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-items: center;
+}
+
+#projects {
+    flex-direction: row-reverse;
+}
+
 .header {
     display: flex;
     margin: 25px 5px;
+    justify-content: center;
+    justify-content: space-evenly;
 }
 
-.header img {
+#mainPage img {
     border-radius: 50%;
     max-width: 150px;
     max-height: 150px;
@@ -55,6 +68,7 @@ nav ul li {
 
 .header p {
     margin-left: 20px;
+    margin-block-start: 50px;
 }
 
 #aboutMePage {
@@ -77,14 +91,16 @@ nav ul li {
     grid-column: 1 / 2;
 }
 
-#projectsPageGrid {
+/* #projectsPageGrid {
     display: grid;
-    grid-template-columns: 2fr;
-    grid-template-rows: 3fr;
-}
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+} */
 
 #projectsPage section {
     display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
     margin: 20px 0;
     padding: 20px 0;
     size: 100%;
@@ -94,6 +110,10 @@ nav ul li {
     border-radius: 50%;
     max-width: 150px;
     max-height: 150px;
+}
+
+.projectTwo {
+    flex-direction: row-reverse;
 }
 
 #contactMePage {
@@ -116,6 +136,16 @@ nav ul li {
     p {
         font-size: 20px;
     }
+    h3 {
+        font-size: 20px;
+    }
+    .header img {
+        max-width: 200px;
+        max-height: 200px;
+    }
+    #projectsPage section h3 {
+        font-size: 40px;
+    }
 }
 
 @media screen and (min-width:768px) {
@@ -128,6 +158,16 @@ nav ul li {
     p {
         font-size: 30px;
     }
+    h3 {
+        font-size: 30px;
+    }
+    .header img {
+        max-width: 250px;
+        max-height: 250px;
+    }
+    #projectsPage section h3 {
+        font-size: 60px;
+    }
 }
 
 @media screen and (min-width:1200px) {
@@ -139,5 +179,15 @@ nav ul li {
     }
     p {
         font-size: 50px;
+    }
+    h3 {
+        font-size: 50px;
+    }
+    .header img {
+        max-width: 300px;
+        max-height: 300px;
+    }
+    #projectsPage section h3 {
+        font-size: 80px;
     }
 }
