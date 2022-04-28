@@ -6,7 +6,7 @@
 |---|---| ---|
 |Day 1| Project Description / Wireframes / Priority Matrix / Timeline | Complete
 |Day 2| Core Application Structure (HTML, CSS, etc.) | Complete
-|Day 3| Javascript | Incomplete
+|Day 3| Javascript | Complete
 |Day 4| MVP & Bug Fixes | Incomplete
 |Day 4| Final Touches | Incomplete
 |Day 5| Present | Incomplete
@@ -55,12 +55,13 @@ Below are the functional components broken down into MVP versus post-MVP.
 #### MVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Hamburger Menu | H | 2hr | hr |
-| Projects - linked pictures | H | 4hr | hr |
-| Email list form | M | 2hr|  hr | 
-| Grid | M | 4hr | hr|
+| Hamburger Menu | H | 2hr | 2hr |
+| Four separate pages | H | 4hr | 4hr |
+| Projects - linked pictures | H | 4hr | 3hr |
+| Email list form | M | 2hr|  3hr | 
+| Grid/Flexbox | M | 4hr | 4hr|
 | Working with API | H | 6hrs|  hr | 
-| Responsive design | H | 5hr | hr | hr |
+| Responsive design | H | 5hr | 6hr |
 | Total | H | 23 hrs| hrs |
 
 #### PostMVP
@@ -73,16 +74,19 @@ Below are the functional components broken down into MVP versus post-MVP.
 | Total | H | 11hrs| hrs |
 
 ## Additional Libraries
- Use this section to list all supporting libraries and thier role in the project. 
+ Use this section to list all supporting libraries and their role in the project. 
 
 ## Code Snippet
 
-Use this section to include a brief code snippet of functionality that you are proud of an a brief description  
+I was proud of this creative way of linking my "pages" together without having an html link to use. 
 
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
+$('.aboutMe').click(function() {
+    $('#contactMePage').css('visibility', 'hidden')
+    $('#mainPage').css('visibility', 'hidden')
+    $('#projectsPage').css('visibility', 'hidden')
+    $('#aboutMePage').css('visibility', 'visible')
+})
 ```
 
 ## Issues and Resolutions

@@ -6,6 +6,7 @@
 
 body {
     text-align: center;
+    font-family: 'Raleway', sans-serif;
     display: grid;
     grid-template-columns: 0 / 1;
     grid-template-rows: 3fr;
