@@ -11,10 +11,10 @@
     
     <nav>
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About Me</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Contact Me</a></li>
+            <li class="home"><a href="#">Home</a></li>
+            <li class="aboutMe"><a href="#">About Me</a></li>
+            <li class="projects"><a href="#">Projects</a></li>
+            <li class="contactMe"><a href="#">Contact Me</a></li>
         </ul>
         <menuIcon></menuIcon>
     </nav>
@@ -88,21 +88,23 @@
         <section id="emailList">
             <h3>Want to know what I'm up to in real time? Join my email list and get regular updates on my progress!</h3>
             <form>
-                <input type="email" value="your.email@here.com">
+                <input type="email" placeholder="your.email@here.com">
                 <input type="submit" value="Join!">
             </form>
         </section>
         <section id="contactForm">
             <h3>Interested in working together in the future?</h3>
             <form>
-                <input type="text" value="Your Name">
-                <input type="email" value="your.email@here.com">
-                <input type="text" value="Subject">
-                <input type="text" value="Tell me what's on your mind!">
+                <input type="text" placeholder="Your Name">
+                <input type="email" placeholder="your.email@here.com">
+                <input type="text" placeholder="Subject">
+                <textarea placeholder="Tell me what's on your mind!" style="height: 150px"></textarea>
+                <br><input type="submit" value="Submit">
             </form>
         </section>
     </div>
 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="main.js"></script>
 </body>
 </html>
