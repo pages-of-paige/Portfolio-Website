@@ -56,22 +56,22 @@ Below are the functional components broken down into MVP versus post-MVP.
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
 | Hamburger Menu | H | 2hr | 2hr |
-| Four separate pages | H | 4hr | 4hr |
+| Four separate pages | H | 4hr | 5hr |
 | Projects - linked pictures | H | 4hr | 3hr |
 | Email list form | M | 2hr|  3hr | 
 | Grid/Flexbox | M | 4hr | 4hr|
 | Working with jQuery | H | 6hrs|  3hr | 
 | Responsive design | H | 5hr | 6hr |
-| Total | H | 23 hrs| 25hrs |
+| Total | H | 23 hrs| 26hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Project hover dropdown message | L | 3hr | hr | hr |
-| Trailing menu | M | 2hr | hr |
-| Bootstrap | H | 4hr | hr |
-| Photo loop background on main page | L | 2hr | hr |
-| Total | H | 11hrs| hrs |
+| Project hover dropdown message | L | 3hr | 0hr |
+| Trailing menu | M | 2hr | 1hr (Scrapped due to time) |
+| Color blocking | H | 4hr | 2hr |
+| Photo loop background on main page | L | 2hr | 0hr |
+| Total | H | 11hrs| 3hrs |
 
 ## Additional Libraries
  Use this section to list all supporting libraries and their role in the project. 
